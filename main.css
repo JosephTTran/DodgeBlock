@@ -1,0 +1,31 @@
+h1{
+     background: #999999;
+     color: #000000;
+     margin: 5;
+     text-align: center;
+}
+
+body{
+    background: #009ABA;
+}
+
+canvas{
+     border: 1px solid #000000;
+     margin: auto;
+     position: relative;
+     top: 50%;
+     display: block;
+
+}
+
+button {
+	background-color:#F9E79F;
+ 	font-size:20px;
+ 	size:20px
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+

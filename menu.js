@@ -76,8 +76,8 @@ function getMousePos(){
 /* Write mouse position */
 canvas.addEventListener('mousemove', (e) => {
   var mousePos = getMousePos();   
-  var mPos = document.getElementById("mouseCoord");
-  mPos.innerHTML = "(" + mousePos.x +", "+ mousePos.y +")";
+  var mPos = document.getElementById("mouse-coord");
+  mPos.innerHTML = "Mouse Coordinate: (" + mousePos.x +", "+ mousePos.y +")";
   if(menu == true){
     playButton.draw();
   }

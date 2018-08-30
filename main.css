@@ -1,21 +1,20 @@
-h1{
+h1 {
      background: #999999;
      color: #000000;
      margin: 5;
      text-align: center;
 }
 
-body{
+body {
     background: #009ABA;
 }
 
-canvas{
+canvas {
      border: 1px solid #000000;
      margin: auto;
      position: relative;
      top: 50%;
      display: block;
-
 }
 
 button {
@@ -29,3 +28,16 @@ button:hover {
     color: white;
 }
 
+#instruction {
+    text-align: center;
+}
+
+#instruction ul {
+    display: table;
+    margin: 0 auto;     
+    text-align: left;
+}
+
+#mouse-coord {
+    text-align: center;
+}

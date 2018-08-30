@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="utf-8" />
-
-     <title>JS Game</title>
-
-     <link rel="stylesheet"  href="main.css" />
-
-</head>
-<body onload=loadMenu()> 
-     <h1 id="title"> JS Game </h1>
-     
-     <canvas id="can" width="800" height="600">
-          <p>Your browserdoes not support canvas</p>
-     </canvas>
-
-     <p> Dodge sticks to survive  </p>
-       <ul>
-            <li> a key move left</li>
-            <li> d key move right</li>
-            <li> w key move up</li>
-            <li> s key move down </li>
-       </ul>
-
-      <br>
-      <h2 id="mouseCoord"> (X,Y)</h2>  
-
-     <script src="menu.js"></script>
-     <script src="game.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Game</title>
+    <link rel="stylesheet"  href="main.css" />
+  </head>
+  <body onload=loadMenu()> 
+    <h1 id="title"> JS Game </h1>
+      <h2 id="mouse-coord"> Mouse Coordinate: (X,Y)</h2>     
+      <canvas id="can" width="800" height="600">
+        <p>Your browserdoes not support canvas</p>
+      </canvas>
+      <div id="instruction">
+        <h4> Dodge sticks to survive</h4>
+        <ul>
+          <li> a key move left</li>
+          <li> d key move right</li>
+          <li> w key move up</li>
+          <li> s key move down </li>
+        </ul>       
+      </div>
+    <script src="menu.js"></script>
+    <script src="game.js"></script>
+  </body>
 </html>
 
